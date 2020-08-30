@@ -82,11 +82,11 @@
         </nav>
       </header>
       <!-- Left side column. contains the logo and sidebar -->
-      <aside class="main-sidebar">
+      <aside class="main-sidebar"style="background:#FFF8DC;">
         <!-- sidebar: style can be found in sidebar.less -->
         <section class="sidebar">
           <!-- Sidebar user panel -->
-          <div class="user-panel">
+          <div class="user-panel" >
             <div class="pull-left image">
               <?php
                   $avatar = parse_avatar(from_session('gambar'),from_session('nama'),40,'');
@@ -100,7 +100,7 @@
             </div>
           </div>
           <ul class="sidebar-menu">
-            <li class="header" style="background:#000080;"><b>Menu Utama</b></li>
+            <li class="header" style="background:#6F00FF;"><b>Menu Utama</b></li>
             <li class="active treeview">
               
              
