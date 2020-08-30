@@ -100,7 +100,7 @@
             </div>
           </div>
           <ul class="sidebar-menu">
-            <li class="header" style="background:#E8E8E8;"><b>Menu Utama</b></li>
+            <li class="header" style="background:#000080;"><b>Menu Utama</b></li>
             <li class="active treeview">
               
              
