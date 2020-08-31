@@ -41,7 +41,7 @@
   <link rel="stylesheet" href="<?=base_url();?>assets/plugins/pace/pace.min.css">
   <link href="<?=base_url();?>assets/css/fileinput.min.css" media="all" rel="stylesheet" type="text/css" />
   </head>
-  <body class="hold-transition skin-red sidebar-mini fixed">
+  <body class="hold-transition skin-primary sidebar-mini fixed">
   <style type="text/css">
   .not-active {
    pointer-events: none;
@@ -59,7 +59,7 @@
 
       <header class="main-header">
         <!-- Logo -->
-        <a href="#" class="logo">
+        <a href="#" class="logo bg-primary">
           <!-- logo for regular state and mobile devices -->
           <span class="logo-mini"><?php echo $this->config->item('nama_pendek')?></span>
           <span class="logo-lg"><?php echo $this->config->item('project')?></span>
