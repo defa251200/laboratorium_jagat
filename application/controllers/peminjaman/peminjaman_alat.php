@@ -48,7 +48,7 @@ class Peminjaman_alat extends CI_Controller {
 
 		if ($this->form_validation->run() == FALSE)
 		{
-			$data['status']='';
+			$data=['kode_pinjam'=>$this->m_peminjaman_alat->kode_peminjaman()];
 			$this->load->view('peminjaman/peminjaman_alat/v_peminjaman_alat_add',$data);
 		}
 		else

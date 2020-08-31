@@ -5,12 +5,11 @@
         
         
         
-        <div class="form-group">
-            <label class="col-sm-4 control-label">Id Peminjaman</label>
+    <div class="form-group">
+            <label class="col-sm-4 control-label">id Peminjaman</label>
             <div class="col-sm-8">
-            <?php echo form_input(array('name'=>'id_peminjaman','class'=>'form-control'));?>
-            <?php echo form_error('id_peminjaman');?>
-            <span id="check_data"></span>
+            <?php echo form_input(array('name'=>'id_peminjaman','class'=>'form-control','readonly'=>'readonly', 'value'=>$kode_pinjam));?>
+            
             </div>
         </div>
         <div class="form-group">
